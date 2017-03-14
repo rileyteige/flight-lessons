@@ -38,3 +38,9 @@ Explain required instruments (GRABCARD):
 | R | Rate-of-Turn Indicator |
 | D | Directional Gyro (and DME > FL240 on V-airways) |
 **Source: [14 CFR §91.205(d)](http://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1205)**
+
+Explain Vacuum-Driven Gyroscopic Instruments
+
+Attitude Indicator: Explain construction, behavior and indications
+
+Directional Gyro (Heading Indicator): Explain construction, behavior and indications, tick marks (45° tick marks), precession (check with magnetic compass every 15 minutes).
