@@ -37,18 +37,18 @@ To teach the student about the Global Positioning System, and train the student 
 
 ## Instructor Actions
 
-Explain RNAV background and capabilities (direct-to), and legacy VOR/DME RNAV receivers.
+#### Explain RNAV background and capabilities (direct-to), and legacy VOR/DME RNAV receivers.
 
-Explain T-airways, find using IFR En-Route Low Altitude Charts.
+#### Explain T-airways, find using IFR En-Route Low Altitude Charts.
 
-Explain GNSS (Global Navigation Satellite System) / GPS (Global Positioning System) concepts.
+#### Explain GNSS (Global Navigation Satellite System) / GPS (Global Positioning System) concepts.
 - GPS (USA), Russian GNSS (GLONASS), Galileo (EU)
 - Satellite-based, worldwide in scope, operated by Department of Defense, 24 satellites
 - In the sky, at least 4 (usually 6-8) satellites in view.
 - Receivers are listen-only, triangulating own position, velocity & time.
 - Straight-line distances
 
-Explain typical benefits and functions of a modern IFR-capable GPS receiver.
+#### Explain typical benefits and functions of a modern IFR-capable GPS receiver.
 - Enhanced Situational Awareness (location, airspace, weather/traffic in advanced displays)
 - Name-based waypoint input via navigation databases for fixes, airports, IAPs, STARs, SIDs
 - Moving map
@@ -59,9 +59,9 @@ Explain typical benefits and functions of a modern IFR-capable GPS receiver.
 - Nearest Field, FSS, ATC, VOR
 - Auxiliary info: Winds Aloft, Density Altitude computation
 
-Explain common "gotcha" with GPS: Each model can vary greatly (unlike ILS/VOR).
+#### Explain common "gotcha" with GPS: Each model can vary greatly (unlike ILS/VOR).
 
-Explain Receiver Autonomous Integrity Monitoring (RAIM).
+#### Explain Receiver Autonomous Integrity Monitoring (RAIM).
 - Verifies enough GPS satellites in view, detects position error to identify corrupt satellites.
 - Required for IFR, many VFR-only GPS receivers not equipped with RAIM alerting capability.
 - Need _n+1_ satellites for _n_-dimensional triangulation.
@@ -69,7 +69,7 @@ Explain Receiver Autonomous Integrity Monitoring (RAIM).
 - To be able to safely isolate a bad satellite and keep RAIM, need _n+3_ so one can be removed.
 - Two ways to lose RAIM: not enough satellites, or potential accuracy error detection.
 
-Explain requirements for a GPS receiver to be usable for IFR navigation:
+#### Explain requirements for a GPS receiver to be usable for IFR navigation:
 - Must be installed on the aircraft, hand-held is prohibited and usable for SA only.
 - Must meet Technical Standard Order (TSO) C-129 (or equivalent).
 - Must be "approved" for IFR operation.
@@ -77,7 +77,7 @@ Explain requirements for a GPS receiver to be usable for IFR navigation:
 - Must have RAIM alerting capability
 - Current navigation database (expires every **28** days)
 
-Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
+#### Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
 
 <img src="images/waas-ifh-9-29.png" width="400" />
 
@@ -85,16 +85,16 @@ Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
 - Implementation of ICAO-standardized Satellite-Based Augmentation System.
 <div style="clear: both;" />
 
-Explain GPS CDI Sensitivity:
+#### Explain GPS CDI Sensitivity:
 | Location | Sensitivity |
 | -------- | ----------- |
 | En-Route | ±5 NM |
 | Terminal (within 30 NM) | ±1 NM |
 | Approach | ±1 NM to ±0.3 NM at FAF |
 
-Explain GPS approaches: LNAV, LNAV/VNAV, LNAV+V, LP, LPV, RNP requirements
+#### Explain GPS approaches: LNAV, LNAV/VNAV, LNAV+V, LP, LPV, RNP requirements
 
-Explain GPS pre-flight requirements:
+#### Explain GPS pre-flight requirements:
 - Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
     - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
 
