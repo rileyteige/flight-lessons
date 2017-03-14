@@ -79,7 +79,7 @@ To teach the student about the Global Positioning System, and train the student 
 
 #### Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
 
-<img src="images/waas-ifh-9-29.png" width="400" />
+![IFH Figure 9-29](images/waas-ifh-9-29.png)
 
 - Measures changes in variables to provide satellite positioning corrections.
 - Implementation of ICAO-standardized Satellite-Based Augmentation System.
