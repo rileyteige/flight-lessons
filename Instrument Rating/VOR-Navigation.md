@@ -88,7 +88,7 @@ If repair station's test transmitter is used to verify, repair station represent
 
 ## Student Actions
 | | Action |
-|-| ------ |
+|---| ------ |
 | | Tune and ID a VOR. |
 | | Identify position of aircraft relative to a VOR. |
 | | Fly a course direct to a VOR and identify station passage. |
