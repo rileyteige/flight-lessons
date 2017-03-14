@@ -27,7 +27,7 @@ To familiarize the student with equipment required for IFR flight and how that e
 ## Instructor Actions
 Explain required instruments (GRABCARD):
 
-| Letter | Instrument |
+|   | Instrument |
 | --- | --------- |
 | G | Generator / Alternator |
 | R | Radios suitable for nav/comm |
@@ -37,3 +37,4 @@ Explain required instruments (GRABCARD):
 | A | Attitude Indicator |
 | R | Rate-of-Turn Indicator |
 | D | Directional Gyro (and DME > FL240 on V-airways) |
+###### Source: [14 CFR §91.205(d)](http://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1205)
