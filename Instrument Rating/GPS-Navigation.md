@@ -18,11 +18,11 @@ To teach the student about the Global Positioning System, and train the student 
 
 | Task | ETE |
 | ---- | --- |
-| Pre-flight Instruction | 0:45 |
+| Pre-flight Instruction | 1:00 |
 | Instructor Demo | 0:10 |
 | Student Practice | 1:00 |
 | Post-flight Instruction | 0:20 |
-| **Total** | **2:15** |
+| **Total** | **2:30** |
 
 ## Equipment
 - Aircraft equipped for IFR with GPS
