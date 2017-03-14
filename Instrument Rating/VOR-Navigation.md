@@ -30,6 +30,7 @@ To train the student in VOR navigation and intercepting VOR courses.
 - Chart Supplement
 - CDI examples for teaching position
 - RMI examples
+- HSI examples
 
 ## Instructor Actions
 Explain what a VOR is (VHF Omnidirectional Range), what it provides ("highways in the sky"). Explain VOR, VOR/DME, TACAN, VORTAC.
@@ -40,7 +41,9 @@ Explain what a radial (FROM) is and how to fly to a station (simple case: 360°)
 
 Explain and demo interpretation of a CDI (Course Deviation Indicator; 10° full deflection, each dot 2°).
 
-Explain and demo interpretation of an RMI (Radio Magnetic Indicator).
+Explain and demo (if applicable) interpretation of an RMI (Radio Magnetic Indicator).
+
+Explain and demo (if applicable) interpretation of an HSI (Horizontal Situation Indicator).
 
 Explain effect of heading on VOR usage. **TODO: elaborate in lesson plan more on this**
 
@@ -53,6 +56,20 @@ Explain and demo reverse sensing.
 Explain and demo identification of VOR intersections.
 
 Explain how to identify VOR failures.
+
+Explain VOR limitations.
+- Line-of-sight
+- Distance & Altitude
+
+| Type of VOR | Altitude Limit | Distance Limit (nm) |
+| ----------- | -------------- | -------------- |
+| Terminal (T) | 12,000' and below | 25 |
+| Low Altitude (L) | Below 18,000' | 40 |
+| High Altitude (H) | Below 14,500' | 40 |
+| | Within lower 48, between 14,500' and 17,999' | 100 |
+| | FL180-FL450 | 130 |
+| | FL450-FL600 | 100 |
+**Source: P.H.A.K. 9-23, AIM 1-1-8**
 
 Explain and demo one method of required 30-day VOR accuracy check requirement ([14 CFR §91.171](http://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1171)):
 
@@ -101,6 +118,10 @@ If repair station's test transmitter is used to verify, repair station represent
 - Chasing the CDI: homing, rather than tracking.
 
 ## References
-[FAA-H-8083-15B Instrument Flying Handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/FAA-H-8083-15B.pdf)
+[FAA-H-8083-15B Instrument Flying Handbook Chapter 9](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/FAA-H-8083-15B.pdf)
 
 [FAA-S-ACS-8 Instrument Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/media/instrument_rating_acs.pdf)
+
+[FAA-H-8083-25B Pilot's Handbook of Aeronautical Knowledge Chapter 16, p.23](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/18_phak_ch16.pdf)
+
+[14 CFR §91.171](http://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1171)
