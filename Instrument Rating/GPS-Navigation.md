@@ -78,7 +78,9 @@ Explain requirements for a GPS receiver to be usable for IFR navigation:
 - Current navigation database (expires every **28** days)
 
 Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
-<img style="float: right;" src="images/waas-ifh-9-29.png" width="300" />
+
+<img src="images/waas-ifh-9-29.png" width="400" />
+
 - Measures changes in variables to provide satellite positioning corrections.
 - Implementation of ICAO-standardized Satellite-Based Augmentation System.
 <div style="clear: both;" />
