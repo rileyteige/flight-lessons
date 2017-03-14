@@ -43,4 +43,4 @@ Explain Vacuum-Driven Gyroscopic Instruments
 
 Attitude Indicator: Explain construction, behavior and indications
 
-Directional Gyro (Heading Indicator): Explain construction, behavior and indications, tick marks (45° tick marks), precession (check with magnetic compass every 15 minutes).
+Directional Gyro (Heading Indicator): Explain construction, behavior and indications, tick marks (45° tick marks), precession (check with magnetic compass every 15 minutes). Note: Heading indicator is always the primary instrument for bank.
