@@ -7,12 +7,13 @@ To teach the student about the Global Positioning System, and train the student 
 - RNAV background
 - GPS/GNSS background
 - Common GPS functions and benefits
-- RAIM
 - IFR GPS Requirements
+- RAIM
 - WAAS
 - GPS Approaches
 - Using GPS on non-GPS approaches
-- Review GPS pre-flight actions
+- GPS pre-flight actions
+- GPS gotchas
 
 ## Schedule
 
@@ -29,17 +30,15 @@ To teach the student about the Global Positioning System, and train the student 
 - View-limiting device
 - IFR En-Route Low Altitude Charts
 - Example GPS Approach Plates
+    - LNAV
+    - LNAV/VNAV
     - LP
     - LPV
-    - LNAV+V
-    - LNAV/VNAV
     - RNP
 
 ## Instructor Actions
 
-#### Explain RNAV background and capabilities (direct-to), and legacy VOR/DME RNAV receivers.
-
-#### Explain T-airways, find using IFR En-Route Low Altitude Charts.
+#### Explain RNAV background and capabilities (direct-to/off-route), and legacy VOR/DME RNAV receivers.
 
 #### Explain GNSS (Global Navigation Satellite System) / GPS (Global Positioning System) concepts.
 - GPS (USA), Russian GNSS (GLONASS), Galileo (EU)
@@ -59,6 +58,15 @@ To teach the student about the Global Positioning System, and train the student 
 - Nearest Field, FSS, ATC, VOR
 - Auxiliary info: Winds Aloft, Density Altitude computation
 
+#### Explain requirements for a GPS receiver to be usable for IFR navigation:
+- Must be installed on the aircraft, hand-held is prohibited and usable for SA only.
+- Must meet Technical Standard Order (TSO) C-129 (or equivalent).
+- Must be "approved" for IFR operation.
+- Must be operated in accordance with POH/AFM or AFM Supplement.
+- Current navigation database (expires every **28** days)
+- Must have RAIM alerting capability
+- Unless GPS is WAAS-equipped, must have non-GPS backup navigation system (VOR/ADF). If IFR alternate is required, alternate must have non-RNAV/GPS approach available (make sure it's not NOTAM'd and check for restrictions like NA at Night).
+
 #### Explain Receiver Autonomous Integrity Monitoring (RAIM).
 - Verifies enough GPS satellites in view, detects position error to identify corrupt satellites.
 - Required for IFR, many VFR-only GPS receivers not equipped with RAIM alerting capability.
@@ -67,24 +75,22 @@ To teach the student about the Global Positioning System, and train the student 
 - To be able to safely isolate a bad satellite and keep RAIM, need _n+3_ so one can be removed.
 - Two ways to lose RAIM: not enough satellites, or potential accuracy error detection.
 
-#### Explain requirements for a GPS receiver to be usable for IFR navigation:
-- Must be installed on the aircraft, hand-held is prohibited and usable for SA only.
-- Must meet Technical Standard Order (TSO) C-129 (or equivalent).
-- Must be "approved" for IFR operation.
-- Must be operated in accordance with POH/AFM or AFM Supplement.
-- Must have RAIM alerting capability
-- Current navigation database (expires every **28** days)
+#### Explain GPS pre-flight requirements:
+- File using /G equipment type on FAA flight plan form. ICAO flight plan has other requirements.
+- Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
+    - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
 
 #### Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
 
 ![IFH Figure 9-29](images/waas-ifh-9-29.png)
 
+- Improves GPS reliability & accuracy
 - Measures changes in variables to provide satellite positioning corrections.
     1. Ground stations w/ known positions identify station error, transmit to master ground station.
     2. Master station uplinks corrected signal to GEO Synchronous Satellites.
     3. GEO Synchronous Satellite broadcasts updated WAAS signal to WAAS-equipped GPS receivers on GPS frequency.
 - Implementation of ICAO-standardized Satellite-Based Augmentation System.
-- Allows use of LP, LPV approaches - high-precision approaches comparable to LOC/ILS.
+- Allows use of LP, LPV approaches (see below) - high-precision approaches comparable to Category I LOC/ILS.
 - Alleviates requirement that alternate have a non-RNAV/GPS approach.
 - WAAS GPS is permitted to be sole navigation source aboard aircraft, no VOR receivers required as backup.
 - WAAS GPS receivers will be certified to **TSO-C145A** or **TSO-C146A**. This can be verified in the Flight Manual Supplement.
@@ -98,26 +104,26 @@ To teach the student about the Global Positioning System, and train the student 
 | Approach | ±1 NM to ±0.3 NM at FAF | RNP 0.3 |
 | LP/LPV inside FAF | Similar sensitivity/accuracy as LOC/ILS |
 
-#### Explain GPS approaches: LNAV, LNAV/VNAV, LNAV+V, LP, LPV, RNP requirements
+#### Explain GPS approaches and demo identifying type of approach
 | Type | Full Name | Description |
 | ---- | --------- | ----------- |
 | LNAV | Lateral Navigation | Non-Precision GPS approach |
 | LNAV+V | LNAV with advisory vertical guidance | Same as LNAV, vert guidance advisory only |
 | LNAV/VNAV | Lateral Navigation/Vertical Navigation | LNAV with computed vertical guidance, less precise than LPV - higher mins |
-| LP | Localizer Performance | Precision approach similar to LOC |
-| LPV | LP with Vertical Guidance | Precision approach similar to ILS |
+| LP | Localizer Performance | Precision approach similar to LOC - requires WAAS |
+| LPV | LP with Vertical Guidance | Precision approach similar to ILS - requires WAAS |
 
 Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonly seen at large airports near terrain (Albuqurque's [RNAV (RNP) Y RWY 26](http://155.178.201.160/d-tpp/1703/00012RRY26.PDF) is an example). To fly these approaches, GPS must be certified to at least that RNP. Can be confirmed via AFM Supplement.
 
-**TODO: Mention Baro-Aiding**
+Baro-aiding (Baro-VNAV) can be used provide vertical guidance on GPS approaches, and allows for 4 GPS satellites instead of 5 to maintain RAIM integrity. When Baro-aided VNAV is in use, temperature restrictions may apply ([KBYG RNAV (GPS) RWY 31](http://155.178.201.160/d-tpp/1703/05705R31.PDF)).
 
-#### Explain GPS pre-flight requirements:
-- File using /G equipment type on FAA flight plan form. ICAO flight plan has other requirements.
-- Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
-    - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
+#### Explain GPS use on non-GPS approaches
+DME replacement in every capacity, including DME arcs. Valid for lateral navigation up to FAF on any approach (not after), and for entire missed approach segment.
+
+#### Explain T-airways, find using IFR En-Route Low Altitude Charts.
 
 #### Explain common "gotcha" with GPS: Each model can vary greatly (unlike ILS/VOR).
-- Ensure familiarity with OBS / SUSP functionality for holds and procedure turns.
+- Ensure familiarity with OBS / SUSP functionality for holds, procedure turns, and missed approaches.
 - Good to become familiar with inputting custom waypoints by radial/distance from known waypoint. ATC may issue instructions such as "cleared direct Memphis 215° radial, 20 DME, then as filed." Custom waypoint knowledge is necessary to comply.
 
 ## Student Actions
@@ -137,13 +143,11 @@ Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonl
 |   | Load and arm a GPS approach, including one precision approach with vertical guidance as applicable, and one with a procedure turn. If able, load/arm one using "Vectors to Final" function.
 |   | Fly assigned GPS approaches to published minimums. Identify MAP and continue to either landing or missed approach segment as assigned.
 
-
-
 ## Evaluation
 - Exhibits adequate knowledge of the background/regulatory elements related to RNAV & GPS, RAIM, and WAAS.
 - Exhibits adequate knowledge of the elements related to navigation via GPS using the airplane's receiver.
 - Flies assigned holding pattern within ±1 NM course accuracy, altitude ±100'.
-- Flies assigned instrument approaches within 3/4 needle deflection to published minimums. Stops descent at MDA as applicable, +100'/-20'.
+- Flies assigned instrument approaches within 3/4 needle deflection to published minimums. Identifies minimums and executes missed approach, within -20' of DH as applicable. Stops descent at MDA as applicable, +100'/-20'.
 
 ## Common Errors
 - Failure to interpret varying CDI sensitivity.
@@ -159,3 +163,5 @@ Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonl
 FAR/AIM
 
 [FAA RNAV (GPS) Approaches Fact Sheet](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/RNAV_QFacts_final_06122012.pdf)
+
+[FAA RNP Approaches Fact Sheet](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/RNAV_QFSheet.pdf)
