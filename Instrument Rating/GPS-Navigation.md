@@ -77,7 +77,7 @@ To teach the student about the Global Positioning System, and train the student 
 
 #### Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
 
-![IFH Figure 9-29](images/waas-ifh-9-29.png)
+![IFH Figure 9-29](https://github.com/rileyteige/flight-lessons/blob/master/Instrument%20Rating/images/waas-ifh-9-29.png?raw=true)
 
 - Improves GPS reliability & accuracy
 - Measures changes in variables to provide satellite positioning corrections.
