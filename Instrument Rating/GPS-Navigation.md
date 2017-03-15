@@ -120,7 +120,7 @@ Baro-aiding (Baro-VNAV) can be used provide vertical guidance on GPS approaches,
 #### Explain GPS use on non-GPS approaches
 DME replacement in every capacity, including DME arcs. Valid for lateral navigation up to FAF on any approach (not after), and for entire missed approach segment.
 
-#### Explain T-airways, find using IFR En-Route Low Altitude Charts.
+#### Explain T-airways, find using IFR En-Route Low Altitude Charts. Include GPS MEAs.
 
 #### Explain common "gotcha" with GPS: Each model can vary greatly (unlike ILS/VOR).
 - Ensure familiarity with OBS / SUSP functionality for holds, procedure turns, and missed approaches.
