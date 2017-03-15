@@ -160,8 +160,6 @@ DME replacement in every capacity, including DME arcs. Valid for lateral navigat
 
 [Instrument Flying Handbook Chapter 9 p.22-33, 44](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/FAA-H-8083-15B.pdf)
 
-FAR/AIM
-
 [FAA RNAV (GPS) Approaches Fact Sheet](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/RNAV_QFacts_final_06122012.pdf)
 
 [FAA RNP Approaches Fact Sheet](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/RNAV_QFSheet.pdf)
