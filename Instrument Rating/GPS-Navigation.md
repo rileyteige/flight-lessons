@@ -75,11 +75,6 @@ To teach the student about the Global Positioning System, and train the student 
 - To be able to safely isolate a bad satellite and keep RAIM, need _n+3_ so one can be removed.
 - Two ways to lose RAIM: not enough satellites, or potential accuracy error detection.
 
-#### Explain GPS pre-flight requirements:
-- File using /G equipment type on FAA flight plan form. ICAO flight plan has other requirements.
-- Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
-    - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
-
 #### Explain (Wide-Area Augmentation System) WAAS. (IFH 9-32)
 
 ![IFH Figure 9-29](images/waas-ifh-9-29.png)
@@ -95,6 +90,11 @@ To teach the student about the Global Positioning System, and train the student 
 - WAAS GPS is permitted to be sole navigation source aboard aircraft, no VOR receivers required as backup.
 - WAAS GPS receivers will be certified to **TSO-C145A** or **TSO-C146A**. This can be verified in the Flight Manual Supplement.
 - Some known WAAS-capable models: Garmin GNS 430**W**/530**W** and G1000. Many others.
+
+#### Explain GPS pre-flight requirements:
+- File using /G equipment type on FAA flight plan form. ICAO flight plan has other requirements.
+- Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
+    - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
 
 #### Explain GPS CDI Sensitivity:
 | Location | Sensitivity | RNP |
