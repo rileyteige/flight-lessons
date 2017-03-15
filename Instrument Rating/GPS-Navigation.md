@@ -59,8 +59,6 @@ To teach the student about the Global Positioning System, and train the student 
 - Nearest Field, FSS, ATC, VOR
 - Auxiliary info: Winds Aloft, Density Altitude computation
 
-#### Explain common "gotcha" with GPS: Each model can vary greatly (unlike ILS/VOR).
-
 #### Explain Receiver Autonomous Integrity Monitoring (RAIM).
 - Verifies enough GPS satellites in view, detects position error to identify corrupt satellites.
 - Required for IFR, many VFR-only GPS receivers not equipped with RAIM alerting capability.
@@ -82,8 +80,10 @@ To teach the student about the Global Positioning System, and train the student 
 ![IFH Figure 9-29](images/waas-ifh-9-29.png)
 
 - Measures changes in variables to provide satellite positioning corrections.
+    1. Ground stations w/ known positions identify station error, transmit to master ground station.
+    2. Master station uplinks corrected signal to GEO Synchronous Satellites.
+    3. GEO Synchronous Satellite broadcasts updated WAAS signal to WAAS-equipped GPS receivers on GPS frequency.
 - Implementation of ICAO-standardized Satellite-Based Augmentation System.
-<div style="clear: both;" />
 
 #### Explain GPS CDI Sensitivity:
 | Location | Sensitivity |
@@ -97,6 +97,10 @@ To teach the student about the Global Positioning System, and train the student 
 #### Explain GPS pre-flight requirements:
 - Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
     - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
+
+#### Explain common "gotcha" with GPS: Each model can vary greatly (unlike ILS/VOR).
+- Ensure familiarity with OBS / SUSP functionality for holds and procedure turns.
+- Good to become familiar with inputting custom waypoints by radial/distance from known waypoint. ATC may issue instructions such as "cleared direct Memphis 215° radial, 20 DME, then as filed." Custom waypoint knowledge is necessary to comply.
 
 ## Student Actions
 
