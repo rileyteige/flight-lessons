@@ -113,7 +113,7 @@ To teach the student about the Global Positioning System, and train the student 
 | LP | Localizer Performance | Precision approach similar to LOC - requires WAAS |
 | LPV | LP with Vertical Guidance | Precision approach similar to ILS - requires WAAS |
 
-Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonly seen at large airports near terrain (Albuqurque's [RNAV (RNP) Y RWY 26](http://155.178.201.160/d-tpp/1703/00012RRY26.PDF) is an example). To fly these approaches, GPS must be certified to at least that RNP. Can be confirmed via AFM Supplement.
+Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonly seen at large airports near terrain (Albuqurque's [RNAV (RNP) Y RWY 26](http://155.178.201.160/d-tpp/1703/00012RRY26.PDF) is an example). To fly these approaches, GPS/airplane and pilot must be certified to at least that RNP. Can be confirmed via AFM Supplement.
 
 Baro-aiding (Baro-VNAV) can be used provide vertical guidance on GPS approaches, and allows for 4 GPS satellites instead of 5 to maintain RAIM integrity. When Baro-aided VNAV is in use, temperature restrictions may apply ([KBYG RNAV (GPS) RWY 31](http://155.178.201.160/d-tpp/1703/05705R31.PDF)).
 
