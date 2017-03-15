@@ -109,6 +109,8 @@ To teach the student about the Global Positioning System, and train the student 
 
 Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonly seen at large airports near terrain (Albuqurque's [RNAV (RNP) Y RWY 26](http://155.178.201.160/d-tpp/1703/00012RRY26.PDF) is an example). To fly these approaches, GPS must be certified to at least that RNP. Can be confirmed via AFM Supplement.
 
+**TODO: Mention Baro-Aiding**
+
 #### Explain GPS pre-flight requirements:
 - File using /G equipment type on FAA flight plan form. ICAO flight plan has other requirements.
 - Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
