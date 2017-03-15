@@ -84,17 +84,33 @@ To teach the student about the Global Positioning System, and train the student 
     2. Master station uplinks corrected signal to GEO Synchronous Satellites.
     3. GEO Synchronous Satellite broadcasts updated WAAS signal to WAAS-equipped GPS receivers on GPS frequency.
 - Implementation of ICAO-standardized Satellite-Based Augmentation System.
+- Allows use of LP, LPV approaches - high-precision approaches comparable to LOC/ILS.
+- Alleviates requirement that alternate have a non-RNAV/GPS approach.
+- WAAS GPS is permitted to be sole navigation source aboard aircraft, no VOR receivers required as backup.
+- WAAS GPS receivers will be certified to **TSO-C145A** or **TSO-C146A**. This can be verified in the Flight Manual Supplement.
+- Some known WAAS-capable models: Garmin GNS 430**W**/530**W** and G1000. Many others.
 
 #### Explain GPS CDI Sensitivity:
-| Location | Sensitivity |
-| -------- | ----------- |
-| En-Route | ±5 NM |
-| Terminal (within 30 NM) | ±1 NM |
-| Approach | ±1 NM to ±0.3 NM at FAF |
+| Location | Sensitivity | RNP |
+| -------- | ----------- | --- |
+| En-Route | ±5 NM | RNP 2.0 |
+| Terminal (within 30 NM) | ±1 NM | RNP 1.0 |
+| Approach | ±1 NM to ±0.3 NM at FAF | RNP 0.3 |
+| LP/LPV inside FAF | Similar sensitivity/accuracy as LOC/ILS |
 
 #### Explain GPS approaches: LNAV, LNAV/VNAV, LNAV+V, LP, LPV, RNP requirements
+| Type | Full Name | Description |
+| ---- | --------- | ----------- |
+| LNAV | Lateral Navigation | Non-Precision GPS approach |
+| LNAV+V | LNAV with advisory vertical guidance | Same as LNAV, vert guidance advisory only |
+| LNAV/VNAV | Lateral Navigation/Vertical Navigation | LNAV with computed vertical guidance, less precise than LPV - higher mins |
+| LP | Localizer Performance | Precision approach similar to LOC |
+| LPV | LP with Vertical Guidance | Precision approach similar to ILS |
+
+Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonly seen at large airports near terrain (Albuqurque's [RNAV (RNP) Y RWY 26](http://155.178.201.160/d-tpp/1703/00012RRY26.PDF) is an example). To fly these approaches, GPS must be certified to at least that RNP. Can be confirmed via AFM Supplement.
 
 #### Explain GPS pre-flight requirements:
+- File using /G equipment type on FAA flight plan form. ICAO flight plan has other requirements.
 - Check GPS NOTAMs, if not WAAS-equipped must do RAIM check (FSS w/ ETA, or on-board).
     - If using GPS SID without WAAS, also request RAIM for departure airport if using FSS.
 
@@ -103,10 +119,35 @@ To teach the student about the Global Positioning System, and train the student 
 - Good to become familiar with inputting custom waypoints by radial/distance from known waypoint. ATC may issue instructions such as "cleared direct Memphis 215° radial, 20 DME, then as filed." Custom waypoint knowledge is necessary to comply.
 
 ## Student Actions
+|   | Task |
+|---| ---- |
+|   | Locate GPS NOTAMs.
+|   | Perform a RAIM check, through FSS and with receiver if capable.
+|   | Identify GPS navigation database expiration.
+|   | Input assigned flight plan into GPS, with SID and STAR if able.
+|   | Navigate en-route via flight plan waypoints.
+|   | Navigate _direct to_ a waypoint when assigned, using necessary GPS inputs.
+|   | Locate _Nearest_ page if applicable.
+|   | Identify CDI sensitivity for Terminal, En-Route and Approach segments.
+|   | Explore use of vertical navigation (VNAV) features if equipped.
+|   | Input a custom waypoint.
+|   | Hold at an assigned waypoint, using the OBS/SUSP functions.
+|   | Load and arm a GPS approach, including one precision approach with vertical guidance as applicable, and one with a procedure turn. If able, load/arm one using "Vectors to Final" function.
+|   | Fly assigned GPS approaches to published minimums. Identify MAP and continue to either landing or missed approach segment as assigned.
+
+
 
 ## Evaluation
+- Exhibits adequate knowledge of the background/regulatory elements related to RNAV & GPS, RAIM, and WAAS.
+- Exhibits adequate knowledge of the elements related to navigation via GPS using the airplane's receiver.
+- Flies assigned holding pattern within ±1 NM course accuracy, altitude ±100'.
+- Flies assigned instrument approaches within 3/4 needle deflection to published minimums. Stops descent at MDA as applicable, +100'/-20'.
 
 ## Common Errors
+- Failure to interpret varying CDI sensitivity.
+- Chasing CDI needles.
+- Inability to manage GPS "load/arm approach", "hold" functions.
+- Forgetting to resume GPS sequencing after reaching MAP.
 
 ## References
 [Pilot's Handbook of Aeronautical Knowledge Chapter 16 p.35](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/18_phak_ch16.pdf)
@@ -114,3 +155,5 @@ To teach the student about the Global Positioning System, and train the student 
 [Instrument Flying Handbook Chapter 9 p.22-33, 44](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/FAA-H-8083-15B.pdf)
 
 FAR/AIM
+
+[FAA RNAV (GPS) Approaches Fact Sheet](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/RNAV_QFacts_final_06122012.pdf)
