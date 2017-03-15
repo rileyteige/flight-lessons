@@ -87,7 +87,7 @@ Explain required info for logging a VOR check (Date, VOR, Bearing Error, Pilot S
 If repair station's test transmitter is used to verify, repair station representative must make airplane logbook entry with date.
 
 ## Student Actions
-| | Action |
+| ✓ | Action |
 |---| ------ |
 | | Tune and ID a VOR. |
 | | Identify position of aircraft relative to a VOR. |

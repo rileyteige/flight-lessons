@@ -119,7 +119,7 @@ Some approach plates mention specific RNP capabilities (i.e. _RNP 0.1_). Commonl
 - Good to become familiar with inputting custom waypoints by radial/distance from known waypoint. ATC may issue instructions such as "cleared direct Memphis 215° radial, 20 DME, then as filed." Custom waypoint knowledge is necessary to comply.
 
 ## Student Actions
-|   | Task |
+| ✓ | Task |
 |---| ---- |
 |   | Locate GPS NOTAMs.
 |   | Perform a RAIM check, through FSS and with receiver if capable.
