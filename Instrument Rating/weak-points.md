@@ -1,4 +1,4 @@
 - Required ATC reports, with and without radar contact.
 - Composite flight plans
 - Timed approaches from a holding fix
-- §91.175(c)
+- §91.175(c) - _Takeoff and landing under IFR...Operation below DA/ DH or MDA._
