@@ -30,13 +30,15 @@ Discuss Terminal Approach Procedures format and interpretation
 
 Explain a precision approach versus a non-precision approach.
 
-Discuss hardware on the ground (LOC typically 1000' departure end of runway, 3-6° of course width tailored to provide 700' at threshold; GS on the left side of the approach end of the runway with approx. 1.4° width).
-
-Explain DH (typically 200' AGL) versus MDA and runway environment (14 CFR 19.175).
+Explain DH (typically 200' AGL) versus MDA and runway environment (14 CFR §91.175).
 
 Discuss considerations of ILS, backing up with timing for a LOC approach and marker beacons.
 
 Discuss the ground-based hardware of ILS. Discuss usage of the GS indicator.
+- Localizer
+- Glideslope
+- Marker Beacons & Compass Locators
+- Approach lights assisting in transition from instrument -> visual flight
 
 Discuss sensitivity of the ILS (ILS = 2.5° deflection either side, GS = 1.4° deflection either side).
 
@@ -89,6 +91,9 @@ Perform an ILS, LOC or BC approach as directed.
 - Inappropriate descent below the MDA or DH.
 
 ## References
+
 FAA Instrument Flying Handbook
+
 FAA Instrument Procedures Handbook
+
 Instrument ACS
