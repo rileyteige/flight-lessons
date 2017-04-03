@@ -94,7 +94,7 @@ Perform an ILS, LOC or BC approach as directed.
 
 ## References
 
-FAA Instrument Flying Handbook
+FAA Instrument Flying Handbook (9-35)
 
 FAA Instrument Procedures Handbook
 
