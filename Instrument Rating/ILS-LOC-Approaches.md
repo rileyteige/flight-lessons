@@ -25,7 +25,9 @@ To train the student in techniques required to safely fly an ILS approach, Local
 - IAP Format Sheet
 
 ## Instructor Actions
-Discuss Terminal Approach Procedures format and interpretation
+Discuss Terminal Approach Procedures (TERPS) format and interpretation.
+
+Discuss TERPS legends.
 
 Explain a precision approach versus a non-precision approach.
 - DH (typically 200' AGL) versus MDA and runway environment (14 CFR §91.175).
