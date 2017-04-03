@@ -36,7 +36,7 @@ Discuss the ground-based hardware of ILS. Discuss usage of the GS indicator.
 - Marker Beacons & Compass Locators
 - Approach lights assisting in transition from instrument -> visual flight
 
-Discuss sensitivity of the ILS (ILS = 2.5° deflection either side, GS = 1.4° deflection either side).
+Discuss sensitivity of the ILS (ILS = 5° wide, GS = 1.4° wide).
 - Mention false glideslope
 
 ![IFH Figure 9-29](https://github.com/rileyteige/flight-lessons/blob/master/Instrument%20Rating/images/false-glideslope.jpg?raw=true)
