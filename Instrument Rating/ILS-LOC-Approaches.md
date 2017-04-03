@@ -46,12 +46,12 @@ Demo briefing an approach.
 Discuss considerations of ILS, backing up with timing for a LOC approach and marker beacons.
 
 Discuss the 5 A's:
-    - ATIS
-    - Altimeter
-    - Approach (Which way? How far down? How long to MAP?)
-    - Avionics setup
-    - Airspeed stable
-    - _Stay ahead of the airplane! (What now, what next, what after)_
+- ATIS
+- Altimeter
+- Approach (Which way? How far down? How long to MAP?)
+- Avionics setup
+- Airspeed stable
+- _Stay ahead of the airplane! (What now, what next, what after)_
 
 Demo ATC instructions and correct radio procedures.
 
