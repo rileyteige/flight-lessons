@@ -22,17 +22,13 @@ To train the student in techniques required to safely fly an ILS approach, Local
 - Aircraft equipped for IFR
 - View-limiting device
 - Terminal Approach Procedures
+- IAP Format Sheet
 
 ## Instructor Actions
 Discuss Terminal Approach Procedures format and interpretation
-    - Plan & Profile view
-    - Minimums & Categories, Timing chart
 
 Explain a precision approach versus a non-precision approach.
-
-Explain DH (typically 200' AGL) versus MDA and runway environment (14 CFR §91.175).
-
-Discuss considerations of ILS, backing up with timing for a LOC approach and marker beacons.
+- DH (typically 200' AGL) versus MDA and runway environment (14 CFR §91.175).
 
 Discuss the ground-based hardware of ILS. Discuss usage of the GS indicator.
 - Localizer
@@ -41,8 +37,13 @@ Discuss the ground-based hardware of ILS. Discuss usage of the GS indicator.
 - Approach lights assisting in transition from instrument -> visual flight
 
 Discuss sensitivity of the ILS (ILS = 2.5° deflection either side, GS = 1.4° deflection either side).
+- Mention false glideslope
+
+![IFH Figure 9-29](https://github.com/rileyteige/flight-lessons/blob/master/Instrument%20Rating/images/false-glideslope.jpg?raw=true)
 
 Demo briefing an approach.
+
+Discuss considerations of ILS, backing up with timing for a LOC approach and marker beacons.
 
 Discuss the 5 A's:
     - ATIS
@@ -50,10 +51,11 @@ Discuss the 5 A's:
     - Approach (Which way? How far down? How long to MAP?)
     - Avionics setup
     - Airspeed stable
+    - _Stay ahead of the airplane! (What now, what next, what after)_
 
 Demo ATC instructions and correct radio procedures.
 
-Demo and explain a full ILS, LOC and BC approach.
+Demo and explain a full ILS, LOC or BC approach.
 
 ## Student Actions
 Brief an ILS, LOC or BC approach.

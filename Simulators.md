@@ -1,5 +1,7 @@
 # Flight Simulators
 
+**NOTE: This lesson plan is still an early rough-draft, and completely unusable.**
+
 ## Objective
 To train the students in Flight Simulators, Flight Training Devices and Aviation Training Devices. The student will learn of their definitions and regulations, and how they can be used toward skill building and pilot certification experience requirements.
 
@@ -72,7 +74,8 @@ _Authorized uses of an AATD_
 
 - All BATD uses listed above.
 - Completing an IR practical test in accordance with ACS, Circle-to-land NA.
-- 
+
+**TODO:** Use towards flight reviews? Fit in FTD and FFS.
 
 **Describe usage toward experience requirements**
 
