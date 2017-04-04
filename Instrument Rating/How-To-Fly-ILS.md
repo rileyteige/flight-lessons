@@ -45,6 +45,7 @@ Discuss preparation:
 Discuss localizer needle movement during establish maneuver
 
 Discuss establishing approach altitude after establishing LOC
+- Fly into GS from underneath, not from above
 
 Discuss glideslope intercept: preparation, indications and actions to be taken
 - "Glideslope Alive": Gear down, approach flaps, Before Landing checklist complete
