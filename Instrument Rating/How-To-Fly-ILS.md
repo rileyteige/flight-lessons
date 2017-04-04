@@ -4,6 +4,7 @@
 To teach the student the principles of flying an ILS, namely the skills involved, execution and considerations.
 
 ## Elements
+- Preparing for the approach
 - Establishing the localizer
 - Intercepting glideslope
 - Keeping the needles centered
