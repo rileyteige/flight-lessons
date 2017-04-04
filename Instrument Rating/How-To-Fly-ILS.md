@@ -101,18 +101,17 @@ Perform an ILS approach as directed.
 - Transitions to a normal landing approach only when the aircraft is in a position from which a descent to a landing on the runway can be made at a normal rate of descent using normal maneuvering.
 - Maintains localizer and glide slope within 3/4-scale deflection of the indicators during the visual descent from DA/DH to a point over the runway where glide slope must be abandoned to accomplish a normal landing.
 
-## Common Errors
-- Failure to have essential knowledge of the information on the instrument approach chart.
-- Failure to identify LOC & any supplemental VORs.
-- Failure to ensure VLOC navigation mode when equipped with an IFR-capable GPS.
-- Failure to complete checklists prior to FAF.
-- Incorrect communications procedures or noncompliance with clearances.
-- Faulty basic instrument flying technique (e.g. fixating on CDI).
-- Late turn to intercept LOC leading to flying beyond LOC course.
-- Making large adjustments leading to Pilot-Induced Oscillations.
-- Chasing the needles, not maintaining constant attitudes/power settings.
-- Inappropriate descent below the DH.
-- Failure to track LOC after initiating the missed approach procedure.
+## Keys to Success
+- Identify LOC & any supplemental VORs.
+- Ensure VLOC navigation mode when equipped with an IFR-capable GPS.
+- Complete checklists prior to FAF so all you have to do is fly the airplane.
+- Comply with all clearances, call "unable" when appropriate.
+- Remember attitude instrument flying fundamentals! (keep that scan going)
+- Turn immediately to intercept LOC to prevent flying beyond LOC course. Delay only if sensitivity obviously low.
+- Make very small adjustments (2° heading change, 50 RPM/half-inch MP).
+- Maintain constant attitudes/power settings. Don't "chase the needles".
+- Descend below DA only when appropriate.
+- If flying the missed approach, continue tracking LOC after initiating the procedure.
 
 ## References
 
