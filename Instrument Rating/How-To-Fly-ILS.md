@@ -22,12 +22,11 @@ To teach the student the principles of flying an ILS, namely the skills involved
 - Aircraft equipped for IFR
 - View-limiting Device
 - Current TERPS chart to be used for flight
+    - Instructor Note: for first ILS flight, recommend avoiding tracking outbound/procedure turns
 - Whiteboard & Markers
 
 ## Instructor Actions
 Discuss flying own-nav (feeder routes) vs radar vectors to establish ILS localizer
-
-(Instructor note: for first ILS flight, recommend avoiding tracking outbound/procedure turns)
 
 **If ILS to be used includes procedure turn:** Discuss tracking outbound / flying a procedure turn to reverse course
 - Reverse sensing outbound
