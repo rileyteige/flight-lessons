@@ -29,6 +29,23 @@ Reminder: _**Vmc**, minimum controllable airspeed, is the speed below which dire
 
 _"Red Line" is the **highest** Vmc attained by the manufacturer_
 
+### Vmc vs. Stall Speed
+(see Multi-Engine Packet, pg. 9)
+
+Stall speed is a characteristic of the airframe, constant with a given load factor / CG.
+
+Vmc is a consequence of asymmetric thrust.
+
+Therefore, if there is less asymmetric thrust available (higher altitude?), less need rudder authority is needed; therefore Vmc won't occur until lower airspeeds. At sea level in the Seneca, Vmc is 80MPH whereas Vso is 62MPH. This means...
+
+Low Altitude: **Vmc first**
+
+Altitude gained, Vmc decreasing
+
+Crossing point: Caution for spin if stalled near this altitude
+
+High Altitude: **Stall first**
+
 ### How is Vmc affected?
 **Rule of thumb:** In general, conditions that lower Vmc INCREASE control but DECREASE performance
 - **CG Forward** (longer arm inc. rudder effectiveness)
@@ -37,21 +54,6 @@ _"Red Line" is the **highest** Vmc attained by the manufacturer_
 - **Feathering failed engine** reduces drag & yaw
 - **Max T/O wt.** helps resist yaw (need more asymmetric thrust to overcome inc. momentum)
 - **Increasing bank** can reduce Vmc by a 2-3 kts per degree of bank angle (but reduces vert. lift component)
-
-### Vmc vs. Stall Speed
-(see Multi-Engine Packet, pg. 9)
-
-Stall speed is a characteristic of the airframe, constant with a given load factor / CG.
-
-Vmc is a consequence of asymmetric thrust.
-
-Therefore, if there is less asymmetric thrust available, less need rudder authority is needed; therefore Vmc won't occur until lower airspeeds.
-
-Low Altitude: Vmc first
-
-Crossing point: Caution for spin if stalled near this altitude
-
-High Altitude: Stall first
 
 ### Vmc Entry and Recovery
 
